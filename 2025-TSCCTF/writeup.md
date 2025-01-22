@@ -6,7 +6,7 @@
 
 ### Give you a free flag
 
-![Solution](https://hackmd.io/_uploads/Syx6hhQP1e.png =400x)
+<img src="https://hackmd.io/_uploads/Syx6hhQP1e.png" alt="Solution" width="400">
 
 下面空白這麼多看起來就有問題，選取看看，果真有字。
 - Flag: `TSC{W3llc0me_t0_TSC2O2SIlIllI}`
@@ -17,7 +17,9 @@
 > Emoji 是 TSCCTF2024 的 DC flag !
 
 Hint 說 emoji 是 2024 的，意思是不要找錯，但我誤以為要找那個，甚至開了一張 ticket 去問，總之真正的 flag 其實埋在公告頻道的說明裡面，如下圖
-![Solution](https://hackmd.io/_uploads/ryHw4eEPJe.png)
+
+<img src="https://hackmd.io/_uploads/ryHw4eEPJe.png" alt="Solution" width="500">
+
 - Flag：`TSC{w31c0m3_t0_s5cc7f2025_d15c0rd!!!}`
 
 ### Feedback Form
@@ -30,7 +32,7 @@ Hint 說 emoji 是 2024 的，意思是不要找錯，但我誤以為要找那�
 ### gamble_bad_bad
 
 > `./gamble_bad_bad/main.cpp`
-```cpp=
+```cpp
 #include <string.h>
 #include <iostream>
 #include <stdio.h>
@@ -83,14 +85,14 @@ int main() {
 程式在第 29 行使用了 `gets`，並沒有檢查輸入字串長度，因此可以從 `game.buffer` 蓋到 `game.value`，`game.buffer` 大小為 20 個 byte，因此輸入隨意 20 個字元後面再接 `777` 即可竄改 `game.value` 數值。
 解法如下圖：輸入 `00000000000000000000777`，得到 flag 為 `TSC{Gamble_Very_bad_bad_but_}`
 
-![Solution](https://hackmd.io/_uploads/rJpsp2mvJe.png =600x)
+<img src="https://hackmd.io/_uploads/rJpsp2mvJe.png" alt="Solution" width="500">
 
 ## CRYPTO
 
 ### Very Simple Login
 
 > `./very-simple-login/server.py`
-```python=
+```py
 import base64
 import hashlib
 import json
@@ -216,13 +218,15 @@ if __name__ == '__main__':
 
 目標是觸發第 107 行印出 flag，觸發條件為 `username='Admin'`。
 可以透過選項 1 創建 username 為 `Admin` 的用戶，得到 Token 後，再透過選項 2 將得到的 token 帶入，即可以 Admin 身分登入，獲得 flag，解法如下圖：
-![Solution](https://hackmd.io/_uploads/SyLU1TmD1g.png)
+
+<img src="https://hackmd.io/_uploads/SyLU1TmD1g.png" alt="Solution" width="700">
+
 不過我認為這題跟 crypto 無關就是了。。
 
 ### Classic
 
 > `./classic/chal.py`
-```python=
+```py
 import os
 import string
 import secrets
@@ -238,7 +242,7 @@ print(enc)
 ```
 
 > flag
-```txt=
+```txt
 o`15~UN;;U~;F~U0OkW;FNW;F]WNlUGV"
 ```
 
@@ -246,7 +250,7 @@ o`15~UN;;U~;F~U0OkW;FNW;F]WNlUGV"
 看題目，如果我能拿到兩個 32-bit 的隨機數 `A` 和 `B`，就能把 flag 解出來，暴力解需要 (2^{32})^2 = 2^{64}，而剛好其實暴力解滿快就得到答案
 
 > `./classic/exp.py`
-```python=
+```py
 import string
 from math import gcd
 import secrets
@@ -289,7 +293,7 @@ while True:
         exit()
 ```
 
-![Solution](https://hackmd.io/_uploads/rJlBxaQwkg.png)
+<img src="https://hackmd.io/_uploads/rJlBxaQwkg.png" alt="Solution" width="500">
 
 ---
 
@@ -297,11 +301,11 @@ while True:
 
 > Scoreboard: 162 / 509
 
-![Scoreboard](https://hackmd.io/_uploads/BJETh7IDJg.png)
+<img src="https://hackmd.io/_uploads/BJETh7IDJg.png" alt="Solution" width="700">
 
 > Qualified Scoreboard: about 20 / 36
 
-![Qualified Scoreboard](https://hackmd.io/_uploads/rk4a37LPkl.png)
+<img src="https://hackmd.io/_uploads/rk4a37LPkl.png" alt="Solution" width="700">
 
 ---
 

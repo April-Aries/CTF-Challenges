@@ -5,6 +5,7 @@
 ## 2025-TSCCTF
 
 | Categories | Problems | Date |
+| :-- | :-- | :-- |
 | Welcome | Give you a free flag | 2025-01-13 |
 | Welcome | Please Join our Discord | 2025-01-15 |
 | Welcome | Feedback Form | 2025-01-15 |

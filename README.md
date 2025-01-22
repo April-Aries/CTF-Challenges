@@ -18,3 +18,4 @@
 | :-- | :-- | :-- | :-- |
 | General | Endianness | Easy | 2025-01-22 |
 | Rev | Transformation | Easy | 2025-01-22 |
+| Forensics | Blast from the past | Medium | 2025-01-22 |

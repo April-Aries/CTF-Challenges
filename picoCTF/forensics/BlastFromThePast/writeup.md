@@ -1,10 +1,9 @@
-# Writeups
-
-> Writeup for forensics in picoCTF
-
 # Blast from the past
 
-> Difficulty: Medium
+| Information | Description |
+| :-- | :-- |
+| Category | Forensics |
+| Difficulty | Medium |
 
 ## Problem Description
 
@@ -47,7 +46,7 @@ After combining both results while removing away unnecessary information. I writ
 
 To find where the time stamp is, we can use tool like [Unix Time Stamp Converter](https://www.unixtimestamp.com/). The given time stamp is `2023:11:20 20:46:21.420+00:00`, which is equal to `1700513181420` in millisecond. Such string appears near the bottom of the whole file. Changing those 13 bytes leads me to the flag. The last problem is, what is the millisecond time stamp of `1970:00:00 00:00:00.001+00:00`. Actually it is `0000000000001`. Submit the modified image `./BlastFromThePast/modified.jpg` and get the flag after passing the check.
 
-The flag is : `picoCTF{71m3_7r4v311ng_p1c7ur3_ed953b57}`
+:triangular_flag_on_post:: `picoCTF{71m3_7r4v311ng_p1c7ur3_ed953b57}`
 
 ## Note
 

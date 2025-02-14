@@ -22,3 +22,4 @@
 | Forensics | Blast from the past | Medium | 2025-01-22 |
 | Forensics | Dear Diary | Medium | 2025-01-23 |
 | Crypto | custom-encryption | Medium | 2025-02-12 |
+| Forensics | st3g0 | Medium | 2025-02-14 |

@@ -24,3 +24,4 @@
 | Crypto | custom-encryption | Medium | 2025-02-12 |
 | Forensics | st3g0 | Medium | 2025-02-14 |
 | Forensics | PcapPoisoning | Medium | 2025-02-15 |
+| Forensics | Mob Psycho | Medium | 2025-02-15 |

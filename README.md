@@ -28,3 +28,4 @@
 | Crypto | C3 | Medium | 2025-02-21 |
 | Crypto | rotation | Medium | 2025-02-21 |
 | Crypto | ReadMyCert | Medium | 2025-02-21 |
+| Crypto | HideToSee | Medium | 2025-02-21 |

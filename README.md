@@ -29,3 +29,6 @@
 | Crypto | rotation | Medium | 2025-02-21 |
 | Crypto | ReadMyCert | Medium | 2025-02-21 |
 | Crypto | HideToSee | Medium | 2025-02-21 |
+| Crypto | substitution0 | Medium | 2025-02-22 |
+| Crypto | substitution1 | Medium | 2025-02-22 |
+| Crypto | substitution2 | Medium | 2025-02-23 |

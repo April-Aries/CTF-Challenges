@@ -32,3 +32,4 @@
 | Crypto | substitution0 | Medium | 2025-02-22 |
 | Crypto | substitution1 | Medium | 2025-02-22 |
 | Crypto | substitution2 | Medium | 2025-02-23 |
+| Binary Exploitation | local target | Medium | 2025-02-24 |
